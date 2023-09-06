@@ -1,0 +1,146 @@
+
+.same-vertical {    
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+}
+#homePage {
+    background: url(/picture/background.jpg);
+}
+
+#myCarousel{
+  left: 50%; 
+  width: 70%; 
+  height: 30%;
+  margin-top: 45%;
+  margin-left: -35%;
+}
+
+
+@media screen and (max-width: 1980px){
+  #myCarousel{
+    margin-top: 15%;
+    margin-left: -35%;
+  }
+
+}
+@media screen and (max-width: 1024px){
+  #myCarousel{
+    margin-top: 40%;
+    margin-left: -35%;
+  }
+
+}
+@media screen and (max-width: 768px){
+  #myCarousel{
+    margin-top: 35%;
+    margin-left: -35%;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  #myCarousel{
+    margin-top: 30%;
+    margin-left: -35%;
+  }
+
+}
+#xmasPage {
+     background: url(/picture/snowfall.gif);
+}
+
+.row{
+    text-align: center;
+}
+.space {
+    text-align: center;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+.centered-form{
+    margin-top: 60px;
+}
+
+.centered-form .panel{
+    background: #ffffff;
+    box-shadow: 0 20px 20px 20px;
+}
+
+* {
+  padding:0;
+  margin:0;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: 30px auto;
+}
+
+.footer-center2 {
+    
+    border-top: solid;
+    border-color: white;
+    color: blue;
+}
+#homePage footer {
+  background: url('/picture/footer.jpg');
+}
+
+
+/*
+  CSS for Christmas page
+  make flexible xmas tree image
+*/
+
+
